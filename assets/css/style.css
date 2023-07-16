@@ -129,6 +129,10 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+.icon{
+  display: none;
+}
+
 
 a {
   outline: none;
@@ -654,6 +658,7 @@ h2 {
 }
 
 .ceomessage p {
+  text-align: justify;
   color: #fafafa;
   font-size: 18px;
   font-weight: 400;
@@ -984,3 +989,166 @@ footer input {
 /******************************************************************
                      | Media Queries |
 *******************************************************************/
+
+@media (max-width: 1000px) {
+
+  .heroheadding .left{
+    margin-top: 50px;
+  }
+  .container {
+    width: 100%;
+  }
+  nav{
+    display: none;
+  }
+
+  .heroheadding{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .heroheadding .left{
+    width: 90%;
+  }
+  .heroheadding .button{
+    width : 60%;
+  }
+  .heroheadding .left h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .heroheadding .left p{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .buttons{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .buttons .button{
+    margin-bottom: 10px;
+  }
+  #white{
+
+    margin-bottom: 50px;
+  }
+  .heroheadding img{
+    position: unset;
+  }
+  .logos{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px;
+    background-color: unset;
+    margin-bottom: 50px;
+  }
+  .chooseUs{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .chooseUs h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .chooseUs .reason{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .chooseUs .reasons p{
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .ceomessage{
+    width: 100%;
+    padding: 50px;
+
+  }
+  .ceomessage p{
+    width: 100%;
+    margin: 0;
+  }
+  .ceo::after{
+    display:none
+  }
+  .ceo::before{
+    display:none
+  }
+  .sides{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .contactus p{
+    margin-bottom: 50px;
+  }
+  .contactus .sides .form{
+    margin: 0 auto;
+    width: 70%;
+  }
+  .contactus .sides .image{
+    margin: 0 auto;
+    width: 85%;
+    margin-bottom: 20px;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .blogcard{
+    width: 80% !important;
+    margin-bottom: 30px !important;
+  }
+  .contactus h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .Subscribe h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  .Subscribe p{
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  .butt{
+    margin-bottom: 20px;
+  }
+  footer{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  footer div{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .getintouch input{
+    display:unset
+  }
+  .chooseUs .left{
+    width: 90%;
+  }
+  .copyright{
+    margin-top: 20px;
+  }
+}
+
+/* 400 maxwidth screen */
+@media (max-width: 400px) {
+    .reasons .reason{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .stats{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+}
+```
+```
