@@ -133,7 +133,6 @@ html {
   display: none;
 }
 
-
 a {
   outline: none;
   text-decoration: none;
@@ -812,6 +811,13 @@ h2 {
 .blogcard:hover{
   background-image: url(../images/blogs/blog1.png) !important;
 }
+.blogcard:hover .button{
+  visibility: visible !important;
+}
+.blogcard .button{
+  margin-bottom: 50px !important;
+  visibility: hidden !important;
+}
 #bone {
   background-image: url(../images/blogs/blog0.png);
   background-size: cover;
@@ -993,16 +999,31 @@ footer input {
 *******************************************************************/
 
 @media (max-width: 1000px) {
-
-  .heroheadding .left{
-    margin-top: 50px;
+  nav{
+    overflow: hidden;
+    background-color: #FFF;
+    position: relative;
+    margin: 5px;
   }
+  .heroheadding .left{
+    margin-top : 20px
+  }
+
+  .icon{
+    display: block;
+    margin-right: 40px;
+  }
+  .nav-links{
+    display: none;
+  }
+  .nav{
+    justify-content: space-between;
+  }
+
   .container {
     width: 100%;
   }
-  nav{
-    display: none;
-  }
+
 
   .heroheadding{
     flex-wrap: wrap;
@@ -1153,5 +1174,3 @@ footer input {
       justify-content: center;
     }
 }
-```
-```
