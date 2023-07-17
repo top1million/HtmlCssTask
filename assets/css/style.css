@@ -129,7 +129,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
-.icon{
+.icon {
   display: none;
 }
 
@@ -808,17 +808,19 @@ h2 {
   text-align: center;
   margin-bottom: 36px;
 }
-.blogcard:hover{
+.blogcard:hover {
   background-image: url(../images/blogs/blog1.png) !important;
 }
-.blogcard:hover .button{
+.blogcard:hover .button {
   visibility: visible !important;
   display: block;
   margin: 0 auto;
 }
-.blogcard .button{
+.blogcard .button {
   margin-bottom: 50px !important;
-  display: none;
+  display: block;
+  margin: 0 auto;
+  visibility: hidden;
 }
 #bone {
   background-image: url(../images/blogs/blog0.png);
@@ -1001,24 +1003,24 @@ footer input {
 *******************************************************************/
 
 @media (max-width: 1000px) {
-  nav{
+  nav {
     overflow: hidden;
-    background-color: #FFF;
+    background-color: #fff;
     position: relative;
     margin: 5px;
   }
-  .heroheadding .left{
-    margin-top : 20px
+  .heroheadding .left {
+    margin-top: 20px;
   }
 
-  .icon{
+  .icon {
     display: block;
     margin-right: 40px;
   }
-  .nav-links{
+  .nav-links {
     display: none;
   }
-  .nav{
+  .nav {
     justify-content: space-between;
   }
 
@@ -1026,42 +1028,40 @@ footer input {
     width: 100%;
   }
 
-
-  .heroheadding{
+  .heroheadding {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
-  .heroheadding .left{
+  .heroheadding .left {
     width: 90%;
   }
-  .heroheadding .button{
-    width : 60%;
+  .heroheadding .button {
+    width: 60%;
   }
-  .heroheadding .left h1{
+  .heroheadding .left h1 {
     font-size: 45px;
     margin-bottom: 20px;
   }
-  .heroheadding .left p{
+  .heroheadding .left p {
     width: 100%;
     font-size: 20px;
     margin-bottom: 20px;
   }
-  .buttons{
+  .buttons {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .buttons .button{
+  .buttons .button {
     margin-bottom: 10px;
   }
-  #white{
-
+  #white {
     margin-bottom: 50px;
   }
-  .heroheadding img{
+  .heroheadding img {
     position: unset;
   }
-  .logos{
+  .logos {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
@@ -1069,53 +1069,52 @@ footer input {
     background-color: unset;
     margin-bottom: 50px;
   }
-  .chooseUs{
+  .chooseUs {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     margin-bottom: 50px;
   }
-  .chooseUs h2{
+  .chooseUs h2 {
     font-size: 30px;
     margin-bottom: 25px;
   }
-  .chooseUs .reason{
+  .chooseUs .reason {
     width: 100%;
     margin-bottom: 0px;
   }
-  .chooseUs .reasons p{
+  .chooseUs .reasons p {
     font-size: 11px;
     margin-bottom: 5px;
   }
-  .ceomessage{
+  .ceomessage {
     width: 100%;
     padding: 50px;
-
   }
-  .ceomessage p{
+  .ceomessage p {
     width: 100%;
     margin: 0;
   }
-  .ceo::after{
-    display:none
+  .ceo::after {
+    display: none;
   }
-  .ceo::before{
-    display:none
+  .ceo::before {
+    display: none;
   }
-  .sides{
+  .sides {
     display: block;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
-  .contactus p{
+  .contactus p {
     margin-bottom: 50px;
   }
-  .contactus .sides .form{
+  .contactus .sides .form {
     margin: 0 auto;
     width: 70%;
   }
-  .contactus .sides .image{
+  .contactus .sides .image {
     margin: 0 auto;
     width: 85%;
     margin-bottom: 20px;
@@ -1125,57 +1124,57 @@ footer input {
     justify-content: center;
     text-align: center;
   }
-  .blogcard{
+  .blogcard {
     width: 80% !important;
     margin-bottom: 30px !important;
   }
-  .blogcard .button{
+  .blogcard .button {
     margin: 0 auto;
   }
 
-  .contactus h2{
+  .contactus h2 {
     font-size: 40px;
     margin-bottom: 40px;
   }
-  .Subscribe h2{
+  .Subscribe h2 {
     font-size: 35px;
     margin-bottom: 40px;
   }
-  .Subscribe p{
+  .Subscribe p {
     font-size: 15px;
     margin-bottom: 40px;
   }
-  .butt{
+  .butt {
     margin-bottom: 20px;
   }
-  footer{
+  footer {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
-  footer div{
+  footer div {
     width: 100%;
     margin-bottom: 50px;
   }
-  .getintouch input{
-    display:unset
+  .getintouch input {
+    display: unset;
   }
-  .chooseUs .left{
+  .chooseUs .left {
     width: 90%;
   }
-  .copyright{
+  .copyright {
     margin-top: 20px;
   }
 }
 
 /* 400 maxwidth screen */
 @media (max-width: 400px) {
-    .reasons .reason{
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .stats{
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+  .reasons .reason {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .stats {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
