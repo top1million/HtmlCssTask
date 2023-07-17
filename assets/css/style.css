@@ -173,7 +173,14 @@ b {
 /******************************************************************
                      | NAVBAR STYLE | 
 *******************************************************************/
-
+nav li a {
+  color: #313131;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .container {
   width: 100%;
   width: 75%;
@@ -285,6 +292,7 @@ background-repeat: no-repeat; */
 
 .heroheadding .left span {
   color: #18a7b9;
+  font-weight: bold;
 }
 
 .heroheadding .left p {
@@ -492,7 +500,7 @@ h2 {
   z-index: -1;
   background-repeat: no-repeat;
 }
-.owl-nav{
+.owl-nav {
   display: block !important;
 }
 #two::after {
@@ -759,7 +767,7 @@ h2 {
   box-shadow: none !important;
 }
 .user-input-wrp .inputText:focus {
-  background-color: #FFF;
+  background-color: #fff;
   border-color: blue;
   border-width: medium medium 2px;
 }
@@ -968,12 +976,12 @@ footer input {
   border-radius: 7px;
   background: #f9f9f9;
 }
-.socials{
+.socials {
   display: flex;
   gap: 15px;
   justify-content: start;
 }
-.socials i{
+.socials i {
   color: #18a7b9;
 }
 
@@ -1175,6 +1183,10 @@ footer input {
   }
   .copyright {
     margin-top: 20px;
+  }
+  .socials {
+    margin: 0 auto;
+    display: block;
   }
 }
 
