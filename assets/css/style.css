@@ -813,10 +813,12 @@ h2 {
 }
 .blogcard:hover .button{
   visibility: visible !important;
+  display: block;
+  margin: 0 auto;
 }
 .blogcard .button{
   margin-bottom: 50px !important;
-  visibility: hidden !important;
+  display: none;
 }
 #bone {
   background-image: url(../images/blogs/blog0.png);
@@ -1126,6 +1128,9 @@ footer input {
   .blogcard{
     width: 80% !important;
     margin-bottom: 30px !important;
+  }
+  .blogcard .button{
+    margin: 0 auto;
   }
 
   .contactus h2{
