@@ -740,7 +740,7 @@ h2 {
 .image {
   align-content: center;
   align-items: center;
-  margin: auto 0;
+  margin: 5% auto;
   width: 52%;
 }
 
@@ -759,6 +759,7 @@ h2 {
   box-shadow: none !important;
 }
 .user-input-wrp .inputText:focus {
+  background-color: #FFF;
   border-color: blue;
   border-width: medium medium 2px;
 }
@@ -966,6 +967,14 @@ footer input {
   margin-bottom: 20px;
   border-radius: 7px;
   background: #f9f9f9;
+}
+.socials{
+  display: flex;
+  gap: 15px;
+  justify-content: start;
+}
+.socials i{
+  color: #18a7b9;
 }
 
 /******************************************************************
