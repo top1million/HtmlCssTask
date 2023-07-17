@@ -40,3 +40,7 @@ function myFunction() {
   }
 
 } 
+$("icon").click(function(e){
+  e.preventDefault();
+  $("nav-links").slideToggle("slow");
+});
